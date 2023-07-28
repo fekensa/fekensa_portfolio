@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<!-- Title of the page -->
+	<title>Welcome to Fekensa Portfolio Page</title>
+	<!-- Import CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- HTML Favicon -->
+    <link rel="icon" type="image/png" href="images/profile.jpg">
+</head>	
+<body>
+	<section class="header">
+		<div class="navbar">
+	          <a href="https://www.linkedin.com/in/fekensa-degefa-7b286444/" target="_blank"><img src="images/linkedin.png"></a>
+	          <a href="https://twitter.com/FekeBilo" target="_blank"><img src="images/twitter.png"></a>
+	          <a href="https://www.facebook.com/fekensa.degefa/" target="_blank"><img src="images/facebook.png"></a>
+    	</div>
+    	<div class="nameandtitle">
+    		<h1>Hello, I am Fekensa Degefa</h1>
+    		<h2>Manager, Database Administration</h2>
+    		<h3>Cooperative Bank of Oromia S.C.</h3>
+    	</div>
+	</section>
+	<div class="prfl"><img class="profile" src="images/profile.jpg"></div>
+	<section class="skill">
+		<div class="skills">
+			<h3>Skills</h3>
+			<hr>
+			<button>Java</button>
+			<button>Oracle</button>
+			<button>OEM 13C</button>
+			<button>MsSQL</button>
+			<button>MongoDB</button>
+			<button>SQL</button>
+			<button>Linux</button>
+			<button>PostgreSQL</button>
+			<button>PHP</button>
+			<button>Backup</button>
+			<button>Recovery</button>
+			<button>Performance Tuning</button>
+			<h3>Interests</h3>
+			<hr>
+			<button>Sports</button>
+			<button>Communities</button>
+			<button>Technologies</button>
+		</div>
+		<div class="navbar-about">
+			<ul>
+            	<li onclick="openAbout()"><span class="tLink activeL">About</span></li>
+            	<li onclick="openExp()"><span class="tLink2">Experience</span></li>
+            	<li onclick="openEdu()"><span class="tLink3">Education</span></li>
+            	<li onclick="openTrn()"><span class="tLinks">Trainings</span></li>
+            	<li onclick="openCrt()"><span class="tLinks">Certifications</span></li>
+            </ul>
+           <div id="About" class="about">
+        		<article>
+        			I am an experienced database administrator with over 9 years of experience in the IT industry. I am currently the Manager of Database Administration at the Cooperative Bank of Oromia, where I am responsible for the overall management of the bank's database environment. 
+        		</article>
+        		<article>
+        			I have also worked as a Senior Database Administrator at Bank of Abyssinia, where I was responsible for the implementation and maintenance of the bank's database systems.
+        		</article>
+
+        		<article>
+					I have a strong understanding of database administration concepts and principles, and I am proficient in a variety of database technologies, including Oracle, PostgreSQL, MSSQL, MySQL, and MongoDB. I am also experienced in database migration and disaster recovery.
+        		</article>
+        		<article>
+        			
+        		</article>
+        		<article>
+        			In addition to my technical skills, I am also a strong team player and communicator. I am able to work effectively with both technical and non-technical teams to ensure that the bank's database environment is secure, reliable, and efficient.
+        		</article>
+        	</div>
+			<div id="Experience" class="experience">
+        		<div class="exp1">
+        			<img class="profile" src="images/coop.png">
+	        		<div class="contents">
+	        			<h3>Manager, Database Administration</h3>
+		        		<h4>Cooperative Bank of Oromia</h4>
+		        		<h5>From April, 2023 - Present</h5>
+		        		<article> 
+		        			<p>Responsible for the implementation and maintenance of the bank's database systems.</p>
+		        			<p>Create guides and procedures to implement test, dev and production databases.</p>
+		        			<p>Database Performance Tuning.</p>
+		        			<p>Organize and communicate database team.</p>
+		        		</article>
+		        	</div>
+	        	</div>
+	        	<div class="exp3">
+	        		<img class="profile" src="images/boa.jpg">
+	        		<div class="contents">
+		        		<h3>Senior Database Administrator</h3>
+		        		<h4>Bank of Abyssinia</h4>
+		        		<h5>From July, 2018 - May, 2023</h5>
+		        		<article>
+		        			Implement production ready database servers. Mainly Oracle, PostgreSQL, MSSQL, MySQL and MongoDB.
+		        		</article>
+		        		<article>
+		        			Migrate database from old data center to new state of the art data center for Bank of Abyssinia.
+		        		</article>
+		        		<article>
+		        			 As a part of migration successfully implement Oracle Maximum Availability Architecture (RAC, ASM, Farsync, Flashback, Oracle Restart, Best RMAN Backup and Recovery plan and Multiple Standby databases both at main data center and disaster recovery site).
+		        		</article>
+		        		<span></span>
+		        	</div>
+	        	</div>
+	        	<div class="exp2">
+	        		<img class="profile" src="images/boa.jpg">
+	        		<div class="contents">
+		        		<h3>Database Administrator</h3>
+		        		<h4>Bank of Abyssinia</h4>
+		        		<h5>From Oct, 2013 - June, 2018</h5>
+		        		<article>
+		        			Install RHEL OS, Partition the whole storage as the bank's standard, Oracle database configuration and installation, restore T24 production database backup, configure T24 application server which is Temenos T24 core banking system , Configure T24 web server
+		        		</article>
+		        		<span></span>
+		        	</div>
+	        	</div>
+        	</div>
+        	<div id="Education" class="education">
+        		<div class="bsc">
+        			<img class="profile" src="images/aau.jpg">
+        			<div class="contents">
+		        		<h3>Addis Ababa University</h3>
+		        		<h4>Bachelor of Science in Computer Science</h4>
+		        		<h5>From Sept, 2009 - June, 2013</h5>
+		        	</div>
+	        	</div>
+	        	<div class="msc">
+	        		<img class="profile" src="images/act.jpg">
+	        		<div class="contents">
+		        		<h3>ACT American College of Technology</h3>
+		        		<h4>Master of Science in Computer Science</h4>
+		        		<h5>From Oct, 2022 - Present</h5>
+		        	</div>
+	        	</div>
+        	</div>
+        	<div id="Training" class="training">
+        		<div class="bsc">
+        			<img class="profile" src="images/oracle.png">
+        			<div class="contents">        			
+		        		<h3>Oracle University</h3>
+		        		<h4>Oracle Database 12c: Backup and Recovery Workshop</h4>
+		        	</div>
+	        	</div>
+        		<div class="bsc">
+        			<img class="profile" src="images/oracle.png">
+        			<div class="contents">        			
+		        		<h3>Oracle University</h3>
+		        		<h4>Oracle Database 12c R2: Administration Workshop Ed 3</h4>
+		        	</div>
+	        	</div>	        	
+	        	<div class="msc">
+	        		<img class="profile" src="images/itil.png">
+	        		<div class="contents">
+		        		<h3>ITIL</h3>
+		        		<h4>ITIL Foundation</h4>
+		        	</div>
+	        	</div>	        	
+        		<div class="bsc">
+        			<img class="profile" src="images/oracle.png">
+        			<div class="contents">        			
+		        		<h3>Oracle University</h3>
+		        		<h4>Oracle Database 12c: Introduction to SQL Ed 1 PRV</h4>
+		        	</div>
+	        	</div>
+        		<div class="bsc">
+        			<img class="profile" src="images/oracle.png">
+        			<div class="contents">        			
+		        		<h3>Oracle University</h3>
+		        		<h4>Oracle WebLogic Server 12c: Administration I</h4>
+		        	</div>
+	        	</div>
+        		<div class="bsc">
+        			<img class="profile" src="images/oracle.png">
+        			<div class="contents">        			
+		        		<h3>Oracle University</h3>
+		        		<h4>Oracle Database 11g: Performance Tuning Ed 2</h4>
+		        	</div>
+	        	</div>	        		        		        	
+        	</div>
+        	<div id="Certification" class="certification">
+        		<div class="cert1">
+        			<img class="profile" src="images/oracle.png">
+        			<div class="contents">        			
+		        		<h3>Oracle University</h3>
+		        		<h4>Oracle Autonomous Database Cloud 2021 Certified Specialist</h4>
+		        	</div>
+	        	</div>
+	        	<div class="msc">
+	        		<img class="profile" src="images/oracle.png">
+	        		<div class="contents">
+		        		<h3>Oracle University</h3>
+		        		<h4>Oracle Cloud Infrastructure Foundations 2021 Certified Associate</h4>
+		        	</div>
+	        	</div>
+	        	<div class="msc">
+	        		<img class="profile" src="images/emi.png">
+	        		<div class="contents">
+		        		<h3>Ethiopian Management Institute</h3>
+		        		<h4>Training for Trainers</h4>
+		        	</div>
+	        	</div>
+
+    </section>
+	<footer>
+		<div class="contacts">
+			<p><img class="email" src="images/email.png"></p>
+			<p>fekensad@coopbankoromia.com.et</p>
+			<p><img class="phone" src="images/contact.png"></p>
+			<p>+251 926 80 76 86</p>
+			<p><img class="location" src="images/location.png"></p>
+			<p>Addis Ababa, Ethiopia</p>
+			<p>Copyright &copy; 2023 | All Rights Reserved. </p>
+		</div>
+	</footer>
+	<script src="js.js"></script>
+</body><!--/body end here-->
+</html><!--/html-->

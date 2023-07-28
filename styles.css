@@ -1,0 +1,223 @@
+@font-face {
+    font-family: Lato-Reg;
+    src: url(fonts/Lato-Reg.ttf);
+}
+@font-face {
+    font-family: Lato-Hai;
+    src: url(fonts/Lato-Hai.ttf);
+}
+body, html
+{
+    font-family: Lato-Reg, sans-serif, Arial, Helvetica;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.header {
+    background-color: rgba(0,173,239,1);
+    color: white;
+    width: 100%;
+}
+.header h1 {
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: Lato-Hai, sans-serif, Arial, Helvetica; 
+    font-size: 40px;
+    color: white;
+}
+.header h2 {
+    margin-top: -5px;
+    font-family: Lato-Hai, sans-serif, Arial, Helvetica;
+}
+.header h3 {
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+.nameandtitle
+{
+    padding-top: 40px;
+    margin-left: 320px;
+
+}
+.prfl .profile {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-top: -150px;
+    margin-left: 120px;
+    z-index: 30;
+    position: relative;
+}
+.navbar {
+    margin-right: 3%;
+    margin-top: 5px;
+    float: right;
+}
+.navbar img{
+    height: 30px;
+    width: 30px;
+}
+.header img:hover {
+    color: #f1ab15;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+    transition: .3s;
+    background-position: 100%;
+    animation: slideTop .5s ease forwards;
+}
+.education, .experience, .training, .certification {
+    display: none;
+}
+.skill
+{
+    display: flex;
+    z-index: 3;
+    margin-top: -52px;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+.skills
+{
+    padding-top: 40px;
+    min-width: 150px;
+    max-width: 300px;
+    background-color: #eee;
+}
+
+.skills h3{
+    margin-left: 20px;
+}
+.skills button {
+    background-color: rgba(0,173,239,1);
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Lato-Reg, sans-serif, Arial, Helvetica;
+    z-index: 10;
+}
+.skill hr {
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 2px;
+    background-color: #f1ab15;
+    border-color: #f1ab15;
+ }
+.navbar-about {
+    width: 100%;
+}
+.navbar-about span{
+    padding: 20px;
+}
+.navbar-about li{
+    padding: 12px 4px;
+}
+.navbar-about span:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  background-color: #ddd;
+}
+.about article {
+    margin-left: 3%;
+}
+article {
+    margin-top: 30px;
+    width: 70%;
+    font-size: 17px;
+    color: #444;
+}
+
+.navbar-about img{
+    font-style: italic;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.navbar-about .contents {
+    margin-left: 60px;
+    margin-top: -70px;
+}
+.experience  {
+    margin: 40px;
+}
+.education  {
+    margin: 40px;
+}
+.training  {
+    margin: 40px;
+}
+.certification  {
+    margin: 40px;
+}
+ .navbar-about h5 {
+    margin-top: -15px;
+    font-style: italic;
+    color: #555;
+ }
+
+ .navbar-about h4 {
+    margin-top: -15px;
+    color: #555;
+ }
+  footer {
+    min-height: 100px;
+    background-color: black;
+ }
+ footer p {
+    color: white;
+    margin: 7px;
+ }
+ footer .contacts {
+    text-align: center;
+    padding: 10px;
+ }
+ footer .email {
+    height: 15px;
+    width: 20px;
+ }
+footer .phone {
+    height: 25px;
+    width: 20px;
+ }
+footer .location {
+    height: 25px;
+    width: 20px;
+ }
